@@ -30,26 +30,26 @@ inside your container type ifconfig and get inet addr on eth0 - Ex 172.17.0.2
 ### Change your hosts file
 If your OS is Linux:
 
-Edit as root your /etc/hosts and add a line ate end of file 
+Edit as root your /etc/hosts and add a line ate end of file <br>
 on `<container IP>` put your container IP - Ex 172.17.0.2
 
-`<container IP>` sample.dck
+`<container IP>` sample.dck<br>
 `<container IP>` other.dck
 
 And save
 
 Or is Windows:
 
-Edit  C:\Windows\System32\drivers\etc\hosts and add a line ate end of file 
+Edit  C:\Windows\System32\drivers\etc\hosts and add a line ate end of file <br>
 on `<container IP>` put your container IP - Ex 172.17.0.2
 
-`<container IP>` sample.dck
+`<container IP>` sample.dck<br>
 `<container IP>` other.dck
 
 And save
 
 ### Open Browser
 
-Open `http://sample.dck` if you see SAMPLE - VHOSTS on Docker is OK
+Open `http://sample.dck` if you see SAMPLE - VHOSTS on Docker is OK<br>
 Open `http://other.dck/` if you see OTHER - VHOSTS on Docker is OK
 
